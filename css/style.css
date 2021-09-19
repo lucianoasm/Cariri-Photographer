@@ -44,6 +44,7 @@ h3 {
 h3:hover{
   color: #EAF6F6;
   text-shadow: 0.5px 0.5px 5px #000000;
+  font-size: 1.2em;
 }
 
 hr{
@@ -64,6 +65,30 @@ hr{
   background-color: #79A3B1;
   position: relative;
   padding-top: 100px;
+}
+
+.home{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: left;
+}
+
+.inicio{
+  color: #1D2D50;
+  display: inline;
+  position: relative;
+  bottom: 15px;
+}
+
+.botão-home{
+  margin: 0;
+  position: relative;
+  width: 10%;
+}
+
+.botão-home:hover{
+  width: 9.8%;
 }
 
 .tudo {
@@ -185,7 +210,7 @@ hr{
    color: #FFFFFF;
    font-family: 'Montserrat', sans-serif;
    font-size: 20px;
-   font-weight: 100;
+   font-weight: bold;
    padding: 20px;
    -webkit-box-shadow: 1px 1px 10px 0 #000000;
    -moz-box-shadow: 1px 1px 10px 0 #000000;
@@ -332,4 +357,19 @@ hr{
 .redes2{
   width: 10%;
   float: right;
+}
+
+.whatsapp{
+  width: 9%;
+}
+
+.numero{
+  display: inline;
+  position: relative;
+  bottom: 60px;
+  font-weight: bolder;
+}
+
+.n889{
+  font-weight: lighter;
 }
